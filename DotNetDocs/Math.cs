@@ -4,10 +4,15 @@
 namespace DotNetDocs
 {
     /*
-     Classe retirada da documentação da Microsoft 
-    disponível em: https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc
-     */
-
+        Classe de exemplo retirada da documentação da Microsoft 
+        disponível em: https://docs.microsoft.com/pt-br/dotnet/csharp/codedoc
+        
+        Para identificar o comentário como um comentário de documentação, deve-se utilizar três barras em vez de duas (///).
+        # ----------- Significado das Tags ----------- #
+            summary -> Descrição breve
+            remarks -> Complemento ao summary
+            returns -> Indica o que a função retorna
+    */
 
     /// <sumary>
     /// Implementa funções básicas de matematica
