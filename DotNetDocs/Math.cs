@@ -12,6 +12,7 @@ namespace DotNetDocs
             summary -> Descrição breve
             remarks -> Complemento ao summary
             returns -> Indica o que a função retorna
+            value   -> semelhante ao returns mas para propriedades da classe
     */
 
     /// <sumary>
@@ -22,6 +23,11 @@ namespace DotNetDocs
     /// </remarks>
     public class Math
     {
+        /// <value>
+        /// Retorna o valor de PI
+        /// </value>
+        public static double PI { get; }
+
         /// <summary>
         /// Adiciona dois números
         /// </summary>
