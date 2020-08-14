@@ -13,6 +13,8 @@ namespace DotNetDocs
             remarks -> Complemento ao summary
             returns -> Indica o que a função retorna
             value   -> semelhante ao returns mas para propriedades da classe
+            example -> Inclui um exemplo de utilização. Geralmente inclui uma marcação code com o exemplo.
+            code    -> Trecho de código.
     */
 
     /// <sumary>
@@ -34,6 +36,7 @@ namespace DotNetDocs
         /// <returns>
         /// Retorna a soma de dois inteiros
         /// </returns>
+        
         public static int Add(int a, int b)
         {
             if ((a == int.MaxValue && b > 0) || (b == int.MaxValue && a > 0))
@@ -84,6 +87,7 @@ namespace DotNetDocs
         /// <returns>
         /// Retorna a multiplicação de dois números inteiros
         /// </returns>
+
         public static int Multiply(int a, int b)
         {
             return a * b;
@@ -95,6 +99,13 @@ namespace DotNetDocs
         /// <returns>
         /// Retorna a multiplicação de dois números ponto flutuantes
         /// </returns>
+        /// <example>
+        /// <code>
+        /// double payment = Math.Multiply(500, 4);
+        /// //  Mostrará 2000 (500 * 4)
+        /// Console.WriteLine(payment);
+        /// </code>
+        /// </example>
         public static double Multiply(double a, double b)
         {
             return a * b;
