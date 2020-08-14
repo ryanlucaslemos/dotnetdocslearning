@@ -68,44 +68,44 @@ namespace DotNetDocs
         }
 
         /// <summary>
-        /// Retorna a multiplicação de dois números inteiros
+        /// Multiplica dois números
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Retorna a multiplicação de dois números inteiros
+        /// </returns>
         public static int Multiply(int a, int b)
         {
             return a * b;
         }
 
         /// <summary>
-        /// Retorna a multiplicação de dois números ponto flutuantes
+        /// Multiplica dois números
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Retorna a multiplicação de dois números ponto flutuantes
+        /// </returns>
         public static double Multiply(double a, double b)
         {
             return a * b;
         }
 
         /// <summary>
-        /// Retorna o resultado da divisão de dois numeros inteiros
+        /// Divide dois números
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Retorna o resultado da divisão de dois numeros inteiros
+        /// </returns>
         public static int Divide(int a, int b)
         {
             return a / b;
         }
 
         /// <summary>
-        /// Retorna o resultado da divisao de dois numeros ponto flutuantes
+        /// Divide dois números
         /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Retorna o resultado da divisão de dois ponto flutuantes
+        /// </returns>
         public static double Divide(double a, double b)
         {
             return a / b;
